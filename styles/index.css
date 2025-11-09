@@ -107,8 +107,29 @@ section>div {
     min-height: 20%;
     background-color: white;
     z-index: 1;
+    padding: 5px;
     box-shadow: 5px 5px 5px 5px blue;
-    background-color: red;
+    background-color: grey;
+    border-radius: 7px;
+}
+
+.header-alert {
+    text-align: right;
+}
+
+#alert>.alert-content>.header-alert>button {
+    background-color: transparent;
+    border: none;
+    text-shadow: 2px 2px 2px white;
+}
+
+#alert>.alert-content>.header-alert>button:hover {
+    transform: scale(1.2);
+}
+
+.win-box {
+    background-color: blue !important;
+    color: white !important;
 }
 
 
